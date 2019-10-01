@@ -1,0 +1,108 @@
+@font-face {
+    font-family: f1;
+    src: url(../assets/font/Roboto-Light.ttf);
+  }
+
+
+body {
+    font-family: f1;
+    background-color: lightgrey;
+    margin: 0px;
+    height: 100%
+}
+
+html {
+    height: 100%;
+}
+
+#top a {
+    font-size: 20pt;
+    float: left;
+    text-align: center;
+    margin: 0px;
+    width: 25%;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(54, 54, 54);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: clip;
+    height: 5vh;
+}
+
+#logo {
+    width: 3.95%;
+    margin: 0px;
+    padding: 0px;
+    height: 9.1vh;
+}
+
+#top a:hover {
+    background-color: rgb(197, 219, 0);
+    color: rgb(54, 54, 54);
+}
+
+#pgtitle {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(rgba(54, 54, 54,255),rgba(128, 128, 128,200),rgba(128, 128, 128,128),rgba(211, 211, 211,0));
+    height: 10vh;
+}
+
+.top-img {
+    width: 100%;
+    height: 200px;
+}
+
+.event-box {
+    border-radius: 5px;
+    border: 2px solid rgb(189, 189, 189);
+    width: 90vw;
+    margin-left: 4vw;
+    margin-top: 4vh;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 25vh;
+    margin-bottom: 10px;
+}
+
+.event-box .date {
+    float: right;
+    color: rgb(102, 102, 102);
+}
+.event-box .title {
+    float: left;
+}
+
+.event-box .event-header {
+    position: relative;
+    top: 0px;
+}
+
+.event-box hr {
+    margin-bottom: 3px;
+}
+
+.event-box::-webkit-scrollbar { 
+    display: none; 
+}
+
+#events {
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    bottom: 0px;
+    height: 76vh;
+    width: 100vw;
+}
+
+#events::-webkit-scrollbar { 
+    display: none; 
+}
